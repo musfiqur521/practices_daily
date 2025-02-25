@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(133, 133, 85);
+    background-color:rgb(160, 160, 150);
 }
 h1 {
     color:blue;
@@ -14,3 +14,13 @@ p {
     font-size: 160%;
     
 }
+p2 {
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:beige;
+}
+/* table, th, td {
+    border: 1px solid black;
+} */
