@@ -1,19 +1,40 @@
-// Defining an array
-let myArray = [1, 2, 3, 4, 5];
+// // Defining an array
+// let myArray = [1, 2, 3, 4, 5];
 
-// Accessing array elements
-console.log(myArray[0]); // Output: 1
-console.log(myArray[2]); // Output: 3
+// // Accessing array elements
+// console.log(myArray[0]); // Output: 1
+// console.log(myArray[2]); // Output: 3
 
-// Adding elements to the array
-myArray.push(6); // Adds 6 to the end of the array
-console.log(myArray); // Output: [1, 2, 3, 4, 5, 6]
 
-// Removing the last element from the array
-myArray.pop(); // Removes 6 from the end of the array
-console.log(myArray); // Output: [1, 2, 3, 4, 5]
+// myArray.push(6); 
+// console.log(myArray); // 
 
-// Iterating over the array
-myArray.forEach(element => {
-    console.log(element);
-});
+// // Removing the
+// console.log(myArray); 
+
+// // Iterating over the array
+// myArray.forEach(element => {
+//     console.log(element);
+// });
+
+
+// Numbers:
+let length = 16;
+let weight = 7.5;
+
+// Strings:
+let color = "Yellow";
+let lastName = "Johnson";
+
+// Booleans
+let x = true;
+let y = false;
+
+// Object:
+const person = {firstName:"John", lastName:"Doe"};
+
+// Array object:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Date object:
+const date = new Date("2022-03-25");
